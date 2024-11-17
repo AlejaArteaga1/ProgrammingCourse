@@ -7,3 +7,6 @@ def first_vowel_position(list):
     pass #your code here
 first_vowel_position("Trace") # Expect 2
 first_vowel_position("txt") # Expect -1
+array. 
+doble for recorrer la palabra
+    for para recorrer las vocales 

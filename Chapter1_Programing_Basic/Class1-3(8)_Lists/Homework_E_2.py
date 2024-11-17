@@ -11,5 +11,12 @@ output
 
 [2,2,4,4,6,8,10] """
 
+list = [2,2,3,4,4,6,7,8,9,10]
 def list_odd_numbers(list):
-    pass # Your code here (Delete this line)
+    odd_numbers= []
+    for number in list:
+        if number % 3 == 0:
+            odd_numbers.append(number)
+    return odd_numbers
+
+print(list_odd_numbers(list))
