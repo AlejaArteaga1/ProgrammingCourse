@@ -5,7 +5,9 @@
 Print a list in reverse without breaklines, 
 you can *NOT* use .reverse() function"""
 
+list = [1,2,3]
 def print_reverse(list):
-    pass # your code here
+    for i in range(len(list), 0, -1): 
+        print(i, end=" ") 
 
-print_reverse([1,2,3]) # Expect 3 2 1
+print_reverse(list) # Expect 3 2 1

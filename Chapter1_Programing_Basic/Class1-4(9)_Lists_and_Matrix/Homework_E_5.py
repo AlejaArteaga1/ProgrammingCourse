@@ -11,15 +11,28 @@ Example
 Result :
 
 [2,5,6]
-"""
 
-"""
     This method return the sum of the elemnts of rows. Your CAN'T 
     use "build-in" method sum() please implement with for statement
 """
+
+matrix = [
+    [1, 0, 1],
+    [4, 1, 0],
+    [0, 5, 1]
+]
+
 def calculate_sum_of_row(row):
-    pass # use a for here , why for and not while
+    total = 0
+    for number in row:
+        total += number
+    return total
 
 def compute_sum_of_rows(matrix):
-    pass # use calculate_sum_of_row method and more ...
- 
+    ans = []
+    for row in matrix:
+        sum = calculate_sum_of_row(row)
+        ans.append(sum)
+    return ans
+
+print(compute_sum_of_rows(matrix))
