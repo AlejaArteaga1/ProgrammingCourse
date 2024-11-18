@@ -28,13 +28,16 @@ def group_words_by_size(list):
     small = []
     medium = []
     bigger = []
+    
     for word in list:
-        if len(word) >= 1 and len(word) <= 3:
+        a = len(word)
+        if a >= 1 and a <= 3:
             small.append(word)
-        elif len(word) >= 4 and len(word) <= 7:
+        elif a <= 7:
             medium.append(word)
-        elif len(word) >= 8:
+        else:
             bigger.append(word)
+        
     return [small, medium, bigger]
 
 print(group_words_by_size(list))

@@ -15,7 +15,7 @@ list = [2,2,3,4,4,6,7,8,9,10]
 def list_odd_numbers(list):
     odd_numbers= []
     for number in list:
-        if number % 3 == 0:
+        if number % 2 != 0:
             odd_numbers.append(number)
     return odd_numbers
 

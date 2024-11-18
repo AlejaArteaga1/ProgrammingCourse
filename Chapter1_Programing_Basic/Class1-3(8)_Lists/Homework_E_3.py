@@ -17,7 +17,7 @@ def list_odd_and_even_numbers(list):
     even_numbers = []
     list2 = [ odd_numbers, even_numbers]
     for number in list:
-        if number % 3 == 0:
+        if number % 2 == 0:
             odd_numbers.append(number)
         else: 
             even_numbers.append(number)
