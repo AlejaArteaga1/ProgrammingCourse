@@ -1,6 +1,12 @@
 import fileinput
 
-"""
+## Homework 2 
+
+"""Implement the algorithm of merge two ordered lists.
+
+Given 2 list ORDERED you must merged and create a new list ordered with all elements
+You can repeat numbers
+
 L1 and L2 always be ordered, but not sequencial , can have repeated numbers
 You must create a new array with the numbers of both lists ordered !  
 Is posible that len(L1) != len(L2) take care ! 

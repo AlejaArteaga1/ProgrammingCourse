@@ -4,7 +4,7 @@ Fix the code
 
 We know that the ingredients of Hamburger are:
 
-meat, chicken, cheese, lechuce, tomatoes, onion, pickle+
+meat, chicken, cheese, lettuce, tomatoes, onion, pickle
 
 if we have >=1 vegetables the price increase 1  (expect pickles) 
 
